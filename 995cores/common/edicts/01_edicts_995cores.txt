@@ -1,0 +1,172 @@
+##########################################################################
+# Empire edicts
+##########################################################################
+
+country_edict = {
+	name = "5planetcap"
+	modifier = {
+		country_core_sector_system_cap = 5
+	}
+	influence_cost = 0
+	allow = {
+	}
+	ai_weight = {
+		weight = 0
+	}
+}
+
+country_edict = {
+	name = "10planetcap"
+	modifier = {
+		country_core_sector_system_cap = 10
+	}
+	influence_cost = 0
+	allow = {
+	}
+	ai_weight = {
+		weight = 0
+	}
+}
+
+country_edict = {
+	name = "50planetcap"
+	modifier = {
+		country_core_sector_system_cap = 50
+	}
+	influence_cost = 0
+	allow = {
+	}
+	ai_weight = {
+		weight = 0
+	}
+}
+
+country_edict = {
+	name = "100planetcap"
+	modifier = {
+		country_core_sector_system_cap = 100
+	}
+	influence_cost = 0
+	allow = {
+	}
+	ai_weight = {
+		weight = 0
+	}
+}
+
+country_edict = {
+	name = "990planetcap"
+	modifier = {
+		country_core_sector_system_cap = 990
+	}
+	influence_cost = 0
+	allow = {
+	}
+	ai_weight = {
+		weight = 0
+	}
+}
+
+country_edict = {
+	name = "9990planetcap"
+	modifier = {
+		country_core_sector_system_cap = 9990
+	}
+	influence_cost = 0
+	allow = {
+	}
+	ai_weight = {
+		weight = 0
+	}
+}
+
+country_edict = {
+	name = "res15"
+	modifier = {
+		country_resettlement_cost_mult = -0.15
+	}
+	influence_cost = 0
+	allow = {
+	}
+	ai_weight = {
+		weight = 0
+	}
+}
+
+country_edict = {
+	name = "res25"
+	modifier = {
+		country_resettlement_cost_mult = -0.25
+	}
+	influence_cost = 0
+	allow = {
+	}
+	ai_weight = {
+		weight = 0
+	}
+}
+
+country_edict = {
+	name = "res40"
+	modifier = {
+		country_resettlement_cost_mult = -0.4
+	}
+	influence_cost = 0
+	allow = {
+	}
+	ai_weight = {
+		weight = 0
+	}
+}
+
+country_edict = {
+	name = "res50"
+	modifier = {
+		country_resettlement_cost_mult = -0.5
+	}
+	influence_cost = 0
+	allow = {
+	}
+	ai_weight = {
+		weight = 0
+	}
+}
+
+country_edict = {
+	name = "res60"
+	modifier = {
+		country_resettlement_cost_mult = -0.6
+	}
+	influence_cost = 0
+	allow = {
+	}
+	ai_weight = {
+		weight = 0
+	}
+}
+
+country_edict = {
+	name = "res75"
+	modifier = {
+		country_resettlement_cost_mult = -0.75
+	}
+	influence_cost = 0
+	allow = {
+	}
+	ai_weight = {
+		weight = 0
+	}
+}
+
+country_edict = {
+	name = "res100"
+	modifier = {
+		country_resettlement_cost_mult = -1
+	}
+	influence_cost = 0
+	allow = {
+	}
+	ai_weight = {
+		weight = 0
+	}
+}
