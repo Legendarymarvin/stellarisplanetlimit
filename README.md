@@ -1,5 +1,5 @@
-# stellarisplanetlimit
-Stellaris Modification for Flexible Planet Limit and resettelment Cost
+# Flexible Core Planet Cap & Resettlement Cost
+Stellaris Modification for Flexible Core Planet Cap & Resettlement Cost
 
 Modification for Stellaris: http://store.steampowered.com/app/281990/
 
