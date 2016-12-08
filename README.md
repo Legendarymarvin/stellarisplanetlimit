@@ -9,8 +9,9 @@ Can be subbed via the Workshop http://steamcommunity.com/sharedfiles/filedetails
 
 If you love micro-management and want to control all yourself without giving control to greedy governors, this mod is for you. It raises the limit for planets flexible using cost-free edicts to up to ~10k. You can still create sectors if you want to. This will not affect AI. 
 
-Compatible with 1.0.4
+Compatible with 1.4
 Available in English & German!
+Also available in French thanks to https://github.com/lquattro
 
 ########################
 ### CHANGENOTE 20.05 ###
@@ -28,8 +29,6 @@ Mod on Github: https://github.com/metzbernhard/stellarisplanetlimit
 
 Old (not-edict based version): http://puu.sh/oRcuI/4a47ba2577.zip
 Just extract into Documents/Paradox Interactive/Stellaris/mod folder. 
-
-(Future plans include to replace Core Planet bonuses with something else)
 
 ![](https://github.com/metzbernhard/stellarisplanetlimit/blob/master/screen1.png)
 ![](https://github.com/metzbernhard/stellarisplanetlimit/blob/master/screen2.png)
