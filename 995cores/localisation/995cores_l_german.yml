@@ -3,18 +3,18 @@
  # Edicts
  ####################################
  edict_planetcap:0 "Planetenlimit"
- edict_planetcap_desc:0 "Erhöht das Planetenlimit"
+ edict_planetcap_desc:0 "Planetenlimit verändern"
  
  edict_resettlement:0 "Umsiedlungskosten"
- edict_resettlement_desc:0 "Umsiedlungskosten"
+ edict_resettlement_desc:0 "Umsiedlungskosten ändern"
  
  ####################################
  # Events
  ####################################
  # Menu Core Planet Cap
- 995cores.1.name:0 "Menu Planetenlimit"
+ 995cores.1.name:0 "Änderung Planetenlimid"
  # TODO : need german translation
- 995cores.1.desc:0 "Select the planet cap value!\nYou want?"
+ 995cores.1.desc:0 "Um wie viel willst Du Deinen Planetenlimit erhöhen? Deaktivieren des Edikts setzt die hier gewählte Änderung wieder zurück!"
  995cores.1.a:0 "+5"
  995cores.1.b:0 "+10"
  995cores.1.c:0 "+50"
@@ -22,9 +22,9 @@
  995cores.1.e:0 "+990"
  995cores.1.f:0 "+9990"
  # Menu Resettlement Cost Multi
- 995cores.2.name:0 "Menü Umsiedlungskosten"
+ 995cores.2.name:0 "Änderung Umsiedlungskosten"
  # TODO : need german translation
- 995cores.2.desc:0 "Select the resettlement cost value!\nYou want?"
+ 995cores.2.desc:0 "Um wie viel willst Du Deine Umsiedlungskosten reduzieren? Die gewählte Änderung kann durch das Deaktivieren des Edikts zurückgesetzt werden."
  995cores.2.a:0 "-15%"
  995cores.2.b:0 "-25%"
  995cores.2.c:0 "-40%"
