@@ -1,0 +1,51 @@
+5planetcap = {
+   country_core_sector_system_cap = 5
+}
+
+10planetcap = {
+   country_core_sector_system_cap = 10
+}
+
+50planetcap = {
+   country_core_sector_system_cap = 50
+}
+
+100planetcap = {
+   country_core_sector_system_cap = 100
+}
+
+990planetcap = {
+   country_core_sector_system_cap = 990
+}
+
+9990planetcap = {
+   country_core_sector_system_cap = 9990
+}
+
+res15 = {
+   country_resettlement_cost_mult = -0.15
+}
+
+res25 = {
+   country_resettlement_cost_mult = -0.25
+}
+
+res40 = {
+   country_resettlement_cost_mult = -0.40
+}
+
+res50 = {
+   country_resettlement_cost_mult = -0.50
+}
+
+res60 = {
+   country_resettlement_cost_mult = -0.60
+}
+
+res75 = {
+   country_resettlement_cost_mult = -0.75
+}
+
+res100 = {
+   country_resettlement_cost_mult = -1
+}
