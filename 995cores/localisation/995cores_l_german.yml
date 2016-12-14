@@ -1,27 +1,33 @@
 ﻿l_german:
- edict_5planetcap:0 "+5 Planetenlimit"
- edict_5planetcap_desc:0 "Erhöht das Planetenlimit um 5"
- edict_10planetcap:0 "+10 Planetenlimit"
- edict_10planetcap_desc:0 "Erhöht das Planetenlimit um 10"
- edict_50planetcap:0 "+50 Planetenlimit"
- edict_50planetcap_desc:0 "Erhöht das Planetenlimit um 50"
- edict_100planetcap:0 "+100 Planetenlimit"
- edict_100planetcap_desc:0 "Erhöht das Planetenlimit um 100"
- edict_990planetcap:0 "+990 Planetenlimit"
- edict_990planetcap_desc:0 "Erhöht das Planetenlimit um 990"
- edict_9990planetcap:0 "+9990 Planetenlimit"
- edict_9990planetcap_desc:0 "Erhöht das Planetenlimit um 9990"
- edict_res15:0 "-15% Umsiedlungskosten"
- edict_res15_desc:0 "-15% Umsiedlungskosten"
- edict_res25:0 "-25% Umsiedlungskosten"
- edict_res25_desc:0 "-25% Umsiedlungskosten"
- edict_res40:0 "-40% Umsiedlungskosten"
- edict_res40_desc:0 "-40% Umsiedlungskosten"
- edict_res50:0 "-50% Umsiedlungskosten"
- edict_res50_desc:0 "-50% Umsiedlungskosten"
- edict_res60:0 "-60% Umsiedlungskosten"
- edict_res60_desc:0 "-60% Umsiedlungskosten"
- edict_res75:0 "-75% Umsiedlungskosten"
- edict_res75_desc:0 "-75% Umsiedlungskosten"
- edict_res100:0 "-100% Umsiedlungskosten"
- edict_res100_desc:0 "-100% Umsiedlungskosten"
+ ####################################
+ # Edicts
+ ####################################
+ edict_planetcap:0 "Planetenlimit"
+ edict_planetcap_desc:0 "Erhöht das Planetenlimit"
+ 
+ edict_resettlement:0 "Umsiedlungskosten"
+ edict_resettlement_desc:0 "Umsiedlungskosten"
+ 
+ ####################################
+ # Events
+ ####################################
+ # Menu Core Planet Cap
+ 995cores.1.name:0 "Menu Planetenlimit"
+ # TODO : need german translation
+ 995cores.1.desc:0 "Select the planet cap value!\nYou want?"
+ 995cores.1.a:0 "+5"
+ 995cores.1.b:0 "+10"
+ 995cores.1.c:0 "+50"
+ 995cores.1.d:0 "+100"
+ 995cores.1.e:0 "+990"
+ 995cores.1.f:0 "+9990"
+ # Menu Resettlement Cost Multi
+ 995cores.2.name:0 "Menü Umsiedlungskosten"
+ # TODO : need german translation
+ 995cores.2.desc:0 "Select the resettlement cost value!\nYou want?"
+ 995cores.2.a:0 "-15%"
+ 995cores.2.b:0 "-25%"
+ 995cores.2.c:0 "-40%"
+ 995cores.2.d:0 "-50%"
+ 995cores.2.e:0 "-75%"
+ 995cores.2.f:0 "-100%"
