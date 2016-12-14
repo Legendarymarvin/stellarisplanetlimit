@@ -6,14 +6,14 @@
  edict_planetcap_desc:0 "Raises Core Planet Cap"
  
  edict_resettlement:0 "Resettlement Cost"
- edict_resettlement_desc:0 "Resettlement Cost"
+ edict_resettlement_desc:0 "Change Resettlement Cost"
  
  ####################################
  # Events
  ####################################
  # Menu Core Planet Cap
  995cores.1.name:0 "Menu Planet Cap"
- 995cores.1.desc:0 "Select the planet cap value!\nYou want?"
+ 995cores.1.desc:0 "Select the amount you want to raise your Core Planet Cap. The Change can be reverted by disabling the edict."
  995cores.1.a:0 "+5"
  995cores.1.b:0 "+10"
  995cores.1.c:0 "+50"
@@ -22,7 +22,7 @@
  995cores.1.f:0 "+9990"
  # Menu Resettlement Cost Multi
  995cores.2.name:0 "Menu Resettlement Cost"
- 995cores.2.desc:0 "Select the resettlement cost value!\nYou want?"
+ 995cores.2.desc:0 "Select the reduction you want for resettlement costs. The Change can be reverted by disabling the edict."
  995cores.2.a:0 "-15%"
  995cores.2.b:0 "-25%"
  995cores.2.c:0 "-40%"
