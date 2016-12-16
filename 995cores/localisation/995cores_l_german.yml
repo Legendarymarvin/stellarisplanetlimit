@@ -13,7 +13,6 @@
  ####################################
  # Menu Core Planet Cap
  995cores.1.name:0 "Änderung Planetenlimid"
- # TODO : need german translation
  995cores.1.desc:0 "Um wie viel willst Du Deinen Planetenlimit erhöhen? Deaktivieren des Edikts setzt die hier gewählte Änderung wieder zurück!"
  995cores.1.a:0 "+5"
  995cores.1.b:0 "+10"
@@ -23,7 +22,6 @@
  995cores.1.f:0 "+9990"
  # Menu Resettlement Cost Multi
  995cores.2.name:0 "Änderung Umsiedlungskosten"
- # TODO : need german translation
  995cores.2.desc:0 "Um wie viel willst Du Deine Umsiedlungskosten reduzieren? Die gewählte Änderung kann durch das Deaktivieren des Edikts zurückgesetzt werden."
  995cores.2.a:0 "-15%"
  995cores.2.b:0 "-25%"
@@ -31,3 +29,20 @@
  995cores.2.d:0 "-50%"
  995cores.2.e:0 "-75%"
  995cores.2.f:0 "-100%"
+ 
+ ####################################
+ # Static Modifiers
+ ####################################
+ 5planetcap:0 "+5 Planetenlimit"
+ 10planetcap:0 "+10 Planetenlimit"
+ 50planetcap:0 "+50 Planetenlimit"
+ 100planetcap:0 "+100 Planetenlimit"
+ 990planetcap:0 "+990 Planetenlimit"
+ 9990planetcap:0 "+9990 Planetenlimit"
+ res15:0 "-15% Umsiedlungskosten"
+ res25:0 "-25% Umsiedlungskosten"
+ res40:0 "-40% Umsiedlungskosten"
+ res50:0 "-50% Umsiedlungskosten"
+ res60:0 "-60% Umsiedlungskosten"
+ res75:0 "-75% Umsiedlungskosten"
+ res100:0 "-100% Umsiedlungskosten"
