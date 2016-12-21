@@ -5,7 +5,7 @@ Stellaris Modification for Flexible Core Planet Cap & Resettlement Cost
 **Modification for Paradox Grand Strategy Game Stellaris:**
 Stellaris on Steam: http://store.steampowered.com/app/281990/
 
-Can be subbed via the Workshop http://steamcommunity.com/sharedfiles/filedetails/?id=682336292 or you clone the **Git Repository** (https://github.com/metzbernhard/stellarisplanetlimit) and copy it to the Stellaris Mod-Folder. 
+Can be subbed via the Workshop http://steamcommunity.com/sharedfiles/filedetails/?id=682336292 or you clone the **Git Repository** (https://github.com/metzbernhard/stellarisplanetlimit) and copy it to the Stellaris Mod-Folder. The Git Repository can also be used to get the Mod for older game versions starting with Patch 1.3.
 
 If you love micro-management and want to control all yourself without giving control to greedy governors, this mod is for you. It raises the limit for planets flexible using cost-free edicts to up to ~10k. You can still create sectors if you want to. This will not affect AI. 
 
