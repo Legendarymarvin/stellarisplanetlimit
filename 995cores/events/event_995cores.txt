@@ -1,0 +1,359 @@
+############################
+#
+# Flexible Core Planet Cap 
+# & Resettlement Cost
+#
+# Written by: 
+#  Legendarymarvin
+#  lquattro
+#
+############################
+
+namespace = 995cores
+
+#######################
+# Menu
+#######################
+
+# Menu Core Planet Cap
+country_event = {
+   id = 995cores.1
+   title = "995cores.1.name"
+   desc = "995cores.1.desc"
+   picture = GFX_evt_metropolis
+   show_sound = event_scanner
+
+   is_triggered_only = yes
+
+   trigger = {
+      is_ai = no
+   }
+
+   # +5 core planet cap
+   option = {
+      name = 995cores.1.a
+      country_event = { id = 995cores.11 }
+   }
+
+   # +10 core planet cap
+   option = {
+      name = 995cores.1.b
+      country_event = { id = 995cores.12 }
+   }
+
+   # +50 core planet cap
+   option = {
+      name = 995cores.1.c
+      country_event = { id = 995cores.13 }
+   }
+
+   # +100 core planet cap
+   option = {
+      name = 995cores.1.d
+      country_event = { id = 995cores.14 }
+   }
+
+   # +990 core planet cap
+   option = {
+      name = 995cores.1.e
+      country_event = { id = 995cores.15 }
+   }
+
+   # +9990 core planet cap
+   option = {
+      name = 995cores.1.f
+      country_event = { id = 995cores.16 }
+   }
+}
+
+# Menu Resettlement Cost Multi
+country_event = {
+   id = 995cores.2
+   title = "995cores.2.name"
+   desc = "995cores.2.desc"
+   picture = GFX_evt_metropolis
+   show_sound = event_scanner
+
+   is_triggered_only = yes
+
+   trigger = {
+      is_ai = no
+   }
+
+   # -15 % Resettlement Cost Multi
+   option = {
+      name = 995cores.2.a
+      country_event = { id = 995cores.21 }
+   }
+
+   # -25 % Resettlement Cost Multi
+   option = {
+      name = 995cores.2.b
+      country_event = { id = 995cores.22 }
+   }
+
+   # -40 % Resettlement Cost Multi
+   option = {
+      name = 995cores.2.c
+      country_event = { id = 995cores.23 }
+   }
+
+   # -50 % Resettlement Cost Multi
+   option = {
+      name = 995cores.2.d
+      country_event = { id = 995cores.24 }
+   }
+
+   # -75 % Resettlement Cost Multi
+   option = {
+      name = 995cores.2.e
+      country_event = { id = 995cores.25 }
+   }
+
+   # -100 % Resettlement Cost Multi
+   option = {
+      name = 995cores.2.f
+      country_event = { id = 995cores.26 }
+   }
+}
+
+#######################
+# Set
+#######################
+
+# Set +5 core planet cap (HIDDEN)
+country_event = {
+   id = 995cores.11   
+   hide_window = yes
+
+   is_triggered_only = yes
+
+   immediate = {
+      add_modifier = {
+         modifier = "5planetcap"
+         days = -1
+      }
+   }
+}
+
+# Set +10 core planet cap (HIDDEN)
+country_event = {
+   id = 995cores.12   
+   hide_window = yes
+
+   is_triggered_only = yes
+
+   immediate = {
+      add_modifier = {
+         modifier = "10planetcap"
+         days = -1
+      }
+   }
+}
+
+# Set +50 core planet cap (HIDDEN)
+country_event = {
+   id = 995cores.13   
+   hide_window = yes
+
+   is_triggered_only = yes
+
+   immediate = {
+      add_modifier = {
+         modifier = "50planetcap"
+         days = -1
+      }
+   }
+}
+
+# Set +100 core planet cap (HIDDEN)
+country_event = {
+   id = 995cores.14   
+   hide_window = yes
+
+   is_triggered_only = yes
+
+   immediate = {
+      add_modifier = {
+         modifier = "100planetcap"
+         days = -1
+      }
+   }
+}
+
+# Set +990 core planet cap (HIDDEN)
+country_event = {
+   id = 995cores.15   
+   hide_window = yes
+
+   is_triggered_only = yes
+
+   immediate = {
+      add_modifier = {
+         modifier = "990planetcap"
+         days = -1
+      }
+   }
+}
+
+# Set +9990 core planet cap (HIDDEN)
+country_event = {
+   id = 995cores.16   
+   hide_window = yes
+
+   is_triggered_only = yes
+
+   immediate = {
+      add_modifier = {
+         modifier = "9990planetcap"
+         days = -1
+      }
+   }
+}
+
+
+# Set -15 % Resettlement Cost Multi (HIDDEN)
+country_event = {
+   id = 995cores.21   
+   hide_window = yes
+
+   is_triggered_only = yes
+
+   immediate = {
+      add_modifier = {
+         modifier = "res15"
+         days = -1
+      }
+   }
+}
+
+# Set -25 % Resettlement Cost Multi (HIDDEN)
+country_event = {
+   id = 995cores.22   
+   hide_window = yes
+
+   is_triggered_only = yes
+
+   immediate = {
+      add_modifier = {
+         modifier = "res25"
+         days = -1
+      }
+   }
+}
+
+# Set -40 % Resettlement Cost Multi (HIDDEN)
+country_event = {
+   id = 995cores.23   
+   hide_window = yes
+
+   is_triggered_only = yes
+
+   immediate = {
+      add_modifier = {
+         modifier = "res40"
+         days = -1
+      }
+   }
+}
+
+# Set -50 % Resettlement Cost Multi (HIDDEN)
+country_event = {
+   id = 995cores.24   
+   hide_window = yes
+
+   is_triggered_only = yes
+
+   immediate = {
+      add_modifier = {
+         modifier = "res50"
+         days = -1
+      }
+   }
+}
+
+# Set -75 % Resettlement Cost Multi (HIDDEN)
+country_event = {
+   id = 995cores.25   
+   hide_window = yes
+
+   is_triggered_only = yes
+
+   immediate = {
+      add_modifier = {
+         modifier = "res75"
+         days = -1
+      }
+   }
+}
+
+# Set -100 % Resettlement Cost Multi (HIDDEN)
+country_event = {
+   id = 995cores.26   
+   hide_window = yes
+
+   is_triggered_only = yes
+
+   immediate = {
+      add_modifier = {
+         modifier = "res100"
+         days = -1
+      }
+   }
+}
+
+#######################
+# Disable
+#######################
+
+# Disable modifier event (HIDDEN)
+# Check all day 
+country_event = {
+   id = 995cores.200
+   hide_window = yes
+
+   mean_time_to_happen = { days = 1 }
+
+   #is_triggered_only = yes
+
+   trigger = {
+      NOT = {
+         has_country_edict = planetcap
+      }
+   }
+
+   immediate = {
+      remove_modifier = "5planetcap"
+      remove_modifier = "10planetcap"
+      remove_modifier = "50planetcap"
+      remove_modifier = "100planetcap"
+      remove_modifier = "990planetcap"
+      remove_modifier = "9990planetcap"
+   }
+}
+
+# Disable modifier event (HIDDEN)
+# Check all day 
+country_event = {
+   id = 995cores.201
+   hide_window = yes
+
+   mean_time_to_happen = { days = 1 }
+
+   #is_triggered_only = yes
+
+   trigger = {
+      NOT = {
+         has_country_edict = resettlement
+      }
+   }
+
+   immediate = {
+      remove_modifier = "res15"
+      remove_modifier = "res25"
+      remove_modifier = "res40"
+      remove_modifier = "res50"
+      remove_modifier = "res75"
+      remove_modifier = "res100"
+   }
+}
