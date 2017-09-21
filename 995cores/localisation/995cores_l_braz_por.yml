@@ -1,0 +1,48 @@
+﻿l_english:
+ ####################################
+ # Edicts
+ ####################################
+ edict_planetcap:0 "Planet Cap"
+ edict_planetcap_desc:0 "Raises Core Planet Cap"
+ 
+ edict_resettlement:0 "Resettlement Cost"
+ edict_resettlement_desc:0 "Change Resettlement Cost"
+ 
+ ####################################
+ # Events
+ ####################################
+ # Menu Core Planet Cap
+ 995cores.1.name:0 "Menu Planet Cap"
+ 995cores.1.desc:0 "Select the amount you want to raise your Core Planet Cap. The Change can be reverted by disabling the edict."
+ 995cores.1.a:0 "+5"
+ 995cores.1.b:0 "+10"
+ 995cores.1.c:0 "+50"
+ 995cores.1.d:0 "+100"
+ 995cores.1.e:0 "+990"
+ 995cores.1.f:0 "+9990"
+ # Menu Resettlement Cost Multi
+ 995cores.2.name:0 "Menu Resettlement Cost"
+ 995cores.2.desc:0 "Select the reduction you want for resettlement costs. The Change can be reverted by disabling the edict."
+ 995cores.2.a:0 "-15%"
+ 995cores.2.b:0 "-25%"
+ 995cores.2.c:0 "-40%"
+ 995cores.2.d:0 "-50%"
+ 995cores.2.e:0 "-75%"
+ 995cores.2.f:0 "-100%"
+ 
+ ####################################
+ # Static Modifiers
+ ####################################
+ 5planetcap:0 "+5 Planet Cap"
+ 10planetcap:0 "+10 Planet Cap"
+ 50planetcap:0 "+50 Planet Cap"
+ 100planetcap:0 "+100 Planet Cap"
+ 990planetcap:0 "+990 Planet Cap"
+ 9990planetcap:0 "+9990 Planet Cap"
+ res15:0 "-15% Resettlement Cost"
+ res25:0 "-25% Resettlement Cost"
+ res40:0 "-40% Resettlement Cost"
+ res50:0 "-50% Resettlement Cost"
+ res60:0 "-60% Resettlement Cost"
+ res75:0 "-75% Resettlement Cost"
+ res100:0 "-100% Resettlement Cost"
