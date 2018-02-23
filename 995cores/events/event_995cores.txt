@@ -64,6 +64,15 @@ country_event = {
       name = 995cores.1.f
       country_event = { id = 995cores.16 }
    }
+
+   # Reset core planet cap
+   option = {
+      name = 995cores.1.g
+      trigger = {
+         has_country_flag = 995_planetcap
+      }
+      country_event = { id = 995cores.17 }
+   }
 }
 
 # Menu Resettlement Cost Multi
@@ -115,6 +124,15 @@ country_event = {
       name = 995cores.2.f
       country_event = { id = 995cores.26 }
    }
+
+   # Reset Resettlement Cost Multi
+   option = {
+      name = 995cores.2.g
+      trigger = {
+         has_country_flag = 995_resettlement
+      }
+      country_event = { id = 995cores.27 }
+   }
 }
 
 #######################
@@ -129,6 +147,9 @@ country_event = {
    is_triggered_only = yes
 
    immediate = {
+      # The country_flag planet cap mod
+      set_country_flag = 995_planetcap
+      # Set the static modifiers
       add_modifier = {
          modifier = "5planetcap"
          days = -1
@@ -144,6 +165,9 @@ country_event = {
    is_triggered_only = yes
 
    immediate = {
+      # The country_flag planet cap mod
+      set_country_flag = 995_planetcap
+      # Set the static modifiers
       add_modifier = {
          modifier = "10planetcap"
          days = -1
@@ -159,6 +183,9 @@ country_event = {
    is_triggered_only = yes
 
    immediate = {
+      # The country_flag planet cap mod
+      set_country_flag = 995_planetcap
+      # Set the static modifiers
       add_modifier = {
          modifier = "50planetcap"
          days = -1
@@ -174,6 +201,9 @@ country_event = {
    is_triggered_only = yes
 
    immediate = {
+      # The country_flag planet cap mod
+      set_country_flag = 995_planetcap
+      # Set the static modifiers
       add_modifier = {
          modifier = "100planetcap"
          days = -1
@@ -189,6 +219,9 @@ country_event = {
    is_triggered_only = yes
 
    immediate = {
+      # The country_flag planet cap mod
+      set_country_flag = 995_planetcap
+      # Set the static modifiers
       add_modifier = {
          modifier = "990planetcap"
          days = -1
@@ -204,10 +237,37 @@ country_event = {
    is_triggered_only = yes
 
    immediate = {
+      # The country_flag planet cap mod
+      set_country_flag = 995_planetcap
+      # Set the static modifiers
       add_modifier = {
          modifier = "9990planetcap"
          days = -1
       }
+   }
+}
+
+# Reset core planet cap (HIDDEN)
+country_event = {
+   id = 995cores.17
+   hide_window = yes
+
+   is_triggered_only = yes
+
+   trigger = {
+      has_country_flag = 995_planetcap
+   }
+
+   immediate = {
+      # The country_flag planet cap mod
+      remove_country_flag = 995_planetcap
+      # Remove all static modifiers for cap planet
+      remove_modifier = "5planetcap"
+      remove_modifier = "10planetcap"
+      remove_modifier = "50planetcap"
+      remove_modifier = "100planetcap"
+      remove_modifier = "990planetcap"
+      remove_modifier = "9990planetcap"
    }
 }
 
@@ -220,6 +280,9 @@ country_event = {
    is_triggered_only = yes
 
    immediate = {
+      # The country_flag planet cap mod
+      set_country_flag = 995_resettlement
+      # Set the static modifiers
       add_modifier = {
          modifier = "res15"
          days = -1
@@ -235,6 +298,9 @@ country_event = {
    is_triggered_only = yes
 
    immediate = {
+      # The country_flag planet cap mod
+      set_country_flag = 995_resettlement
+      # Set the static modifiers
       add_modifier = {
          modifier = "res25"
          days = -1
@@ -250,6 +316,9 @@ country_event = {
    is_triggered_only = yes
 
    immediate = {
+      # The country_flag planet cap mod
+      set_country_flag = 995_resettlement
+      # Set the static modifiers
       add_modifier = {
          modifier = "res40"
          days = -1
@@ -265,6 +334,9 @@ country_event = {
    is_triggered_only = yes
 
    immediate = {
+      # The country_flag planet cap mod
+      set_country_flag = 995_resettlement
+      # Set the static modifiers
       add_modifier = {
          modifier = "res50"
          days = -1
@@ -280,6 +352,9 @@ country_event = {
    is_triggered_only = yes
 
    immediate = {
+      # The country_flag planet cap mod
+      set_country_flag = 995_resettlement
+      # Set the static modifiers
       add_modifier = {
          modifier = "res75"
          days = -1
@@ -295,6 +370,9 @@ country_event = {
    is_triggered_only = yes
 
    immediate = {
+      # The country_flag planet cap mod
+      set_country_flag = 995_resettlement
+      # Set the static modifiers
       add_modifier = {
          modifier = "res100"
          days = -1
@@ -302,53 +380,21 @@ country_event = {
    }
 }
 
-#######################
-# Disable
-#######################
-
-# Disable modifier event (HIDDEN)
-# Check all day 
+# Reset Resettlement Cost Multi (HIDDEN)
 country_event = {
-   id = 995cores.200
+   id = 995cores.27 
    hide_window = yes
 
-   mean_time_to_happen = { days = 1 }
-
-   #is_triggered_only = yes
+   is_triggered_only = yes
 
    trigger = {
-      NOT = {
-         has_country_edict = planetcap
-      }
+         has_country_flag = 995_resettlement
    }
 
    immediate = {
-      remove_modifier = "5planetcap"
-      remove_modifier = "10planetcap"
-      remove_modifier = "50planetcap"
-      remove_modifier = "100planetcap"
-      remove_modifier = "990planetcap"
-      remove_modifier = "9990planetcap"
-   }
-}
-
-# Disable modifier event (HIDDEN)
-# Check all day 
-country_event = {
-   id = 995cores.201
-   hide_window = yes
-
-   mean_time_to_happen = { days = 1 }
-
-   #is_triggered_only = yes
-
-   trigger = {
-      NOT = {
-         has_country_edict = resettlement
-      }
-   }
-
-   immediate = {
+      # The country_flag resettlement mod
+      remove_country_flag = 995_resettlement
+      # Remove all static modifiers for resettlement
       remove_modifier = "res15"
       remove_modifier = "res25"
       remove_modifier = "res40"

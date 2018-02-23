@@ -20,6 +20,7 @@
  995cores.1.d:0 "+100"
  995cores.1.e:0 "+990"
  995cores.1.f:0 "+9990"
+ 995cores.1.g:0 "Réinitialiser la valeur par defaut"
  # Menu Resettlement Cost Multi
  995cores.2.name:0 "Menu coût de réinstallation"
  995cores.2.desc:0 "Sélèctionnez la valeur du coût de réinstallation !\nVous désirez ?"
@@ -29,6 +30,7 @@
  995cores.2.d:0 "-50%"
  995cores.2.e:0 "-75%"
  995cores.2.f:0 "-100%"
+ 995cores.2.g:0 "Réinitialiser la valeur par defaut"
  
  ####################################
  # Static Modifiers
