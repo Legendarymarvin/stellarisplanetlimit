@@ -20,6 +20,7 @@
  995cores.1.d:0 "+100"
  995cores.1.e:0 "+990"
  995cores.1.f:0 "+9990"
+ 995cores.1.g:0 "Reset the value by default"
  # Menu Resettlement Cost Multi
  995cores.2.name:0 "Menu Resettlement Cost"
  995cores.2.desc:0 "Select the reduction you want for resettlement costs. The Change can be reverted by disabling the edict."
@@ -29,6 +30,7 @@
  995cores.2.d:0 "-50%"
  995cores.2.e:0 "-75%"
  995cores.2.f:0 "-100%"
+ 995cores.2.g:0 "Reset the value by default"
  
  ####################################
  # Static Modifiers
