@@ -75,6 +75,66 @@ country_event = {
    }
 }
 
+# Menu Core Starbase Cap
+country_event = {
+   id = 995cores.3
+   title = "995cores.3.name"
+   desc = "995cores.3.desc"
+   picture = GFX_evt_metropolis
+   show_sound = event_scanner
+
+   is_triggered_only = yes
+
+   trigger = {
+      is_ai = no
+   }
+
+   # +5 base cap
+   option = {
+      name = 995cores.3.a
+      country_event = { id = 995cores.31 }
+   }
+
+   # +10 base cap
+   option = {
+      name = 995cores.3.b
+      country_event = { id = 995cores.32 }
+   }
+
+   # +50 base cap
+   option = {
+      name = 995cores.3.c
+      country_event = { id = 995cores.33 }
+   }
+
+   # +100 base cap
+   option = {
+      name = 995cores.3.d
+      country_event = { id = 995cores.34 }
+   }
+
+   # +990 base cap
+   option = {
+      name = 995cores.3.e
+      country_event = { id = 995cores.35 }
+   }
+
+   # +9990 base cap
+   option = {
+      name = 995cores.3.f
+      country_event = { id = 995cores.36 }
+   }
+
+   # Resetbase cap
+   option = {
+      name = 995cores.3.g
+      trigger = {
+         has_country_flag = 995_basecap
+      }
+      country_event = { id = 995cores.37 }
+   }
+}
+
 # Menu Resettlement Cost Multi
 country_event = {
    id = 995cores.2
@@ -401,5 +461,141 @@ country_event = {
       remove_modifier = "res50"
       remove_modifier = "res75"
       remove_modifier = "res100"
+   }
+}
+
+###
+# Starbases
+###
+
+# Set +5 Base cap (HIDDEN)
+country_event = {
+   id = 995cores.31   
+   hide_window = yes
+
+   is_triggered_only = yes
+
+   immediate = {
+      # The country_flag base cap mod
+      set_country_flag = 995_basecap
+      # Set the static modifiers
+      add_modifier = {
+         modifier = "5basecap"
+         days = -1
+      }
+   }
+}
+
+# Set +10 Base cap (HIDDEN)
+country_event = {
+   id = 995cores.32   
+   hide_window = yes
+
+   is_triggered_only = yes
+
+   immediate = {
+      # The country_flag base cap mod
+      set_country_flag = 995_basecap
+      # Set the static modifiers
+      add_modifier = {
+         modifier = "10basecap"
+         days = -1
+      }
+   }
+}
+
+# Set +50 Base cap (HIDDEN)
+country_event = {
+   id = 995cores.33   
+   hide_window = yes
+
+   is_triggered_only = yes
+
+   immediate = {
+      # The country_flag base cap mod
+      set_country_flag = 995_basecap
+      # Set the static modifiers
+      add_modifier = {
+         modifier = "50basecap"
+         days = -1
+      }
+   }
+}
+
+# Set +100 Base cap (HIDDEN)
+country_event = {
+   id = 995cores.34   
+   hide_window = yes
+
+   is_triggered_only = yes
+
+   immediate = {
+      # The country_flag base cap mod
+      set_country_flag = 995_basecap
+      # Set the static modifiers
+      add_modifier = {
+         modifier = "100basecap"
+         days = -1
+      }
+   }
+}
+
+# Set +990 Base cap (HIDDEN)
+country_event = {
+   id = 995cores.35   
+   hide_window = yes
+
+   is_triggered_only = yes
+
+   immediate = {
+      # The country_flag base cap mod
+      set_country_flag = 995_basecap
+      # Set the static modifiers
+      add_modifier = {
+         modifier = "990basecap"
+         days = -1
+      }
+   }
+}
+
+# Set +9990 Base cap (HIDDEN)
+country_event = {
+   id = 995cores.36   
+   hide_window = yes
+
+   is_triggered_only = yes
+
+   immediate = {
+      # The country_flag base cap mod
+      set_country_flag = 995_basecap
+      # Set the static modifiers
+      add_modifier = {
+         modifier = "9990basecap"
+         days = -1
+      }
+   }
+}
+
+# Reset base cap (HIDDEN)
+country_event = {
+   id = 995cores.37
+   hide_window = yes
+
+   is_triggered_only = yes
+
+   trigger = {
+      has_country_flag = 995_basecap
+   }
+
+   immediate = {
+      # The country_flag base cap mod
+      remove_country_flag = 995_basecap
+      # Remove all static modifiers for base cap
+      remove_modifier = "5basecap"
+      remove_modifier = "10basecap"
+      remove_modifier = "50basecap"
+      remove_modifier = "100basecap"
+      remove_modifier = "990basecap"
+      remove_modifier = "9990basecap"
    }
 }

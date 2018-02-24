@@ -49,3 +49,27 @@ res75 = {
 res100 = {
    country_resettlement_cost_mult = -1
 }
+
+5basecap = {
+   country_starbase_capacity_add = 5
+}
+
+10basecap = {
+   country_starbase_capacity_add = 10
+}
+
+50basecap = {
+   country_starbase_capacity_add = 50
+}
+
+100basecap = {
+   country_starbase_capacity_add = 100
+}
+
+990basecap = {
+   country_starbase_capacity_add = 990
+}
+
+9990basecap = {
+   country_starbase_capacity_add = 9990
+}

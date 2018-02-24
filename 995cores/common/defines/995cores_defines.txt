@@ -1,0 +1,3 @@
+	NGameplay = {	
+		STARBASE_CAPACITY_MAX									= 9999	# Max value of Starbase Capacity
+	}

@@ -7,30 +7,43 @@
  
  edict_resettlement:0 "Umsiedlungskosten"
  edict_resettlement_desc:0 "Umsiedlungskosten ändern"
+  
+ edict_basecap:0 "Sternenbasenkapazität"
+ edict_basecap_desc:0 "Sternenbasenkapazität ändern"
  
  ####################################
  # Events
  ####################################
  # Menu Core Planet Cap
  995cores.1.name:0 "Änderung Planetenlimit"
- 995cores.1.desc:0 "Um wie viel willst Du Dein Planetenlimit erhöhen? Das Deaktivieren des Edikts setzt die hier gewählte Änderung wieder zurück!"
+ 995cores.1.desc:0 "Um wie viel willst Du Dein Planetenlimit erhöhen? Zum Entfernen der Erhöhung das Edikt nochmal wählen."
  995cores.1.a:0 "+5"
  995cores.1.b:0 "+10"
  995cores.1.c:0 "+50"
  995cores.1.d:0 "+100"
  995cores.1.e:0 "+990"
  995cores.1.f:0 "+9990"
- 995cores.1.g:0 "Setzen Sie den Wert standardmäßig zurück"
+ 995cores.1.g:0 "Wert auf Standard setzen"
  # Menu Resettlement Cost Multi
  995cores.2.name:0 "Änderung Umsiedlungskosten"
- 995cores.2.desc:0 "Um wie viel willst Du Deine Umsiedlungskosten reduzieren? Die gewählte Änderung kann durch das Deaktivieren des Edikts zurückgesetzt werden."
+ 995cores.2.desc:0 "Um wie viel willst Du Deine Umsiedlungskosten reduzieren? Zum Entfernen der Erhöhung das Edikt nochmal wählen."
  995cores.2.a:0 "-15%"
  995cores.2.b:0 "-25%"
  995cores.2.c:0 "-40%"
  995cores.2.d:0 "-50%"
  995cores.2.e:0 "-75%"
  995cores.2.f:0 "-100%"
- 995cores.2.g:0 "Setzen Sie den Wert standardmäßig zurück"
+ 995cores.2.g:0 "Wert auf Standard setzen"
+ # Menu Starbase Cap 
+ 995cores.3.name:0 "Änderung Sternenbasenkapazität"
+ 995cores.3.desc:0 "Um wie viel willst Du Deine Sternenbasenkapazität erhöhen? Zum Entfernen der Erhöhung das Edikt nochmal wählen."
+ 995cores.3.a:0 "+5"
+ 995cores.3.b:0 "+10"
+ 995cores.3.c:0 "+50"
+ 995cores.3.d:0 "+100"
+ 995cores.3.e:0 "+990"
+ 995cores.3.f:0 "+9990"
+ 995cores.3.g:0 "Wert auf Standard setzen"
  
  ####################################
  # Static Modifiers
@@ -48,3 +61,9 @@
  res60:0 "-60% Umsiedlungskosten"
  res75:0 "-75% Umsiedlungskosten"
  res100:0 "-100% Umsiedlungskosten"
+ 5basecap:0 "+5 Sternenbasenkapazität"
+ 10basecap:0 "+10 Sternenbasenkapazität"
+ 50basecap:0 "+50 Sternenbasenkapazität"
+ 100basecap:0 "+100 Sternenbasenkapazität"
+ 990basecap:0 "+990 Sternenbasenkapazität"
+ 9990basecap:0 "+9990 Sternenbasenkapazität"
