@@ -35,15 +35,15 @@
  995cores.2.f:0 "-100%"
  995cores.2.g:0 "Réinitialiser la valeur par defaut"
   # Menu Starbase Cap 
- 995cores.3.name:0 "Menu Starbase Cap"
- 995cores.3.desc:0 "Select the amount by which to raise your Starbase Cap. The Change can be reverted by reusing the edict."
+ 995cores.3.name:0 "Menu capacité base spatiale"
+ 995cores.3.desc:0 "Sélectionnez le montant à utiliser pour augmenter votre plafond de base spatiale. Le changement peut être annulé en réutilisant le décret."
  995cores.3.a:0 "+5"
  995cores.3.b:0 "+10"
  995cores.3.c:0 "+50"
  995cores.3.d:0 "+100"
  995cores.3.e:0 "+990"
  995cores.3.f:0 "+9990"
- 995cores.3.g:0 "Set the value to default."
+ 995cores.3.g:0 "Réinitialiser la valeur par defaut"
  
  ####################################
  # Static Modifiers
