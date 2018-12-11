@@ -1,6 +1,6 @@
 ############################
 #
-# Flexible Core Planet Cap 
+# Flexible Core ship Cap 
 # & Resettlement Cost
 #
 # Written by: 
@@ -15,7 +15,7 @@ namespace = 995cores
 # Menu
 #######################
 
-# Menu Core Planet Cap
+# Menu Ship Cap
 country_event = {
    id = 995cores.1
    title = "995cores.1.name"
@@ -29,47 +29,47 @@ country_event = {
       is_ai = no
    }
 
-   # +5 core planet cap
+   # +5 ship cap
    option = {
       name = 995cores.1.a
       country_event = { id = 995cores.11 }
    }
 
-   # +10 core planet cap
+   # +10 ship cap
    option = {
       name = 995cores.1.b
       country_event = { id = 995cores.12 }
    }
 
-   # +50 core planet cap
+   # +50 ship cap
    option = {
       name = 995cores.1.c
       country_event = { id = 995cores.13 }
    }
 
-   # +100 core planet cap
+   # +100 ship cap
    option = {
       name = 995cores.1.d
       country_event = { id = 995cores.14 }
    }
 
-   # +990 core planet cap
+   # +990 ship cap
    option = {
       name = 995cores.1.e
       country_event = { id = 995cores.15 }
    }
 
-   # +9990 core planet cap
+   # +9990 ship cap
    option = {
       name = 995cores.1.f
       country_event = { id = 995cores.16 }
    }
 
-   # Reset core planet cap
+   # Reset ship cap
    option = {
       name = 995cores.1.g
       trigger = {
-         has_country_flag = 995_planetcap
+         has_country_flag = 995_shipcap
       }
       country_event = { id = 995cores.17 }
    }
@@ -199,7 +199,7 @@ country_event = {
 # Set
 #######################
 
-# Set +5 core planet cap (HIDDEN)
+# Set +5 ship cap (HIDDEN)
 country_event = {
    id = 995cores.11   
    hide_window = yes
@@ -207,17 +207,17 @@ country_event = {
    is_triggered_only = yes
 
    immediate = {
-      # The country_flag planet cap mod
-      set_country_flag = 995_planetcap
+      # The country_flag ship cap mod
+      set_country_flag = 995_shipcap
       # Set the static modifiers
       add_modifier = {
-         modifier = "5planetcap"
+         modifier = "5shipcap"
          days = -1
       }
    }
 }
 
-# Set +10 core planet cap (HIDDEN)
+# Set +10 ship cap (HIDDEN)
 country_event = {
    id = 995cores.12   
    hide_window = yes
@@ -225,17 +225,17 @@ country_event = {
    is_triggered_only = yes
 
    immediate = {
-      # The country_flag planet cap mod
-      set_country_flag = 995_planetcap
+      # The country_flag ship cap mod
+      set_country_flag = 995_shipcap
       # Set the static modifiers
       add_modifier = {
-         modifier = "10planetcap"
+         modifier = "10shipcap"
          days = -1
       }
    }
 }
 
-# Set +50 core planet cap (HIDDEN)
+# Set +50 ship cap (HIDDEN)
 country_event = {
    id = 995cores.13   
    hide_window = yes
@@ -243,17 +243,17 @@ country_event = {
    is_triggered_only = yes
 
    immediate = {
-      # The country_flag planet cap mod
-      set_country_flag = 995_planetcap
+      # The country_flag ship cap mod
+      set_country_flag = 995_shipcap
       # Set the static modifiers
       add_modifier = {
-         modifier = "50planetcap"
+         modifier = "50shipcap"
          days = -1
       }
    }
 }
 
-# Set +100 core planet cap (HIDDEN)
+# Set +100 ship cap (HIDDEN)
 country_event = {
    id = 995cores.14   
    hide_window = yes
@@ -261,17 +261,17 @@ country_event = {
    is_triggered_only = yes
 
    immediate = {
-      # The country_flag planet cap mod
-      set_country_flag = 995_planetcap
+      # The country_flag ship cap mod
+      set_country_flag = 995_shipcap
       # Set the static modifiers
       add_modifier = {
-         modifier = "100planetcap"
+         modifier = "100shipcap"
          days = -1
       }
    }
 }
 
-# Set +990 core planet cap (HIDDEN)
+# Set +990 ship cap (HIDDEN)
 country_event = {
    id = 995cores.15   
    hide_window = yes
@@ -279,17 +279,17 @@ country_event = {
    is_triggered_only = yes
 
    immediate = {
-      # The country_flag planet cap mod
-      set_country_flag = 995_planetcap
+      # The country_flag ship cap mod
+      set_country_flag = 995_shipcap
       # Set the static modifiers
       add_modifier = {
-         modifier = "990planetcap"
+         modifier = "990shipcap"
          days = -1
       }
    }
 }
 
-# Set +9990 core planet cap (HIDDEN)
+# Set +9990 ship cap (HIDDEN)
 country_event = {
    id = 995cores.16   
    hide_window = yes
@@ -297,17 +297,17 @@ country_event = {
    is_triggered_only = yes
 
    immediate = {
-      # The country_flag planet cap mod
-      set_country_flag = 995_planetcap
+      # The country_flag ship cap mod
+      set_country_flag = 995_shipcap
       # Set the static modifiers
       add_modifier = {
-         modifier = "9990planetcap"
+         modifier = "9990shipcap"
          days = -1
       }
    }
 }
 
-# Reset core planet cap (HIDDEN)
+# Reset ship cap (HIDDEN)
 country_event = {
    id = 995cores.17
    hide_window = yes
@@ -315,19 +315,19 @@ country_event = {
    is_triggered_only = yes
 
    trigger = {
-      has_country_flag = 995_planetcap
+      has_country_flag = 995_shipcap
    }
 
    immediate = {
-      # The country_flag planet cap mod
-      remove_country_flag = 995_planetcap
-      # Remove all static modifiers for cap planet
-      remove_modifier = "5planetcap"
-      remove_modifier = "10planetcap"
-      remove_modifier = "50planetcap"
-      remove_modifier = "100planetcap"
-      remove_modifier = "990planetcap"
-      remove_modifier = "9990planetcap"
+      # The country_flag ship cap mod
+      remove_country_flag = 995_shipcap
+      # Remove all static modifiers for cap ship
+      remove_modifier = "5shipcap"
+      remove_modifier = "10shipcap"
+      remove_modifier = "50shipcap"
+      remove_modifier = "100shipcap"
+      remove_modifier = "990shipcap"
+      remove_modifier = "9990shipcap"
    }
 }
 
@@ -340,7 +340,7 @@ country_event = {
    is_triggered_only = yes
 
    immediate = {
-      # The country_flag planet cap mod
+      # The country_flag ship cap mod
       set_country_flag = 995_resettlement
       # Set the static modifiers
       add_modifier = {
@@ -358,7 +358,7 @@ country_event = {
    is_triggered_only = yes
 
    immediate = {
-      # The country_flag planet cap mod
+      # The country_flag ship cap mod
       set_country_flag = 995_resettlement
       # Set the static modifiers
       add_modifier = {
@@ -376,7 +376,7 @@ country_event = {
    is_triggered_only = yes
 
    immediate = {
-      # The country_flag planet cap mod
+      # The country_flag ship cap mod
       set_country_flag = 995_resettlement
       # Set the static modifiers
       add_modifier = {
@@ -394,7 +394,7 @@ country_event = {
    is_triggered_only = yes
 
    immediate = {
-      # The country_flag planet cap mod
+      # The country_flag ship cap mod
       set_country_flag = 995_resettlement
       # Set the static modifiers
       add_modifier = {
@@ -412,7 +412,7 @@ country_event = {
    is_triggered_only = yes
 
    immediate = {
-      # The country_flag planet cap mod
+      # The country_flag ship cap mod
       set_country_flag = 995_resettlement
       # Set the static modifiers
       add_modifier = {
@@ -430,7 +430,7 @@ country_event = {
    is_triggered_only = yes
 
    immediate = {
-      # The country_flag planet cap mod
+      # The country_flag ship cap mod
       set_country_flag = 995_resettlement
       # Set the static modifiers
       add_modifier = {

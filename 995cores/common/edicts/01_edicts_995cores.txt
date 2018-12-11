@@ -9,50 +9,30 @@
 #
 ############################
 
-# Edict Core Sector System Cap
-country_edict = {
-	# Name of edict
-	name = "planetcap"
+# Edict Ship Cap
+
+shipcap = {
 
 	# Edict effects
 	modifier = {}
 
 	# The cost of influence for this edict.
-	influence_cost = 0
-
-	# The conditions to activate it.
-	allow = {}
-
-   # The conditions to visible it.
-   potential = {}
-
-   # How likely(probable) the AI is to take this edict.
-	ai_weight = {
-		weight = 0
+	resources = {
+		category = edicts
+		cost = {
+			# influence_cost = 0
+			influence = 0
+		}
 	}
 
-   # Scripted effect
-   effect = {
-      country_event = { id = 995cores.1 }
-   } 
-}
-
-# Edict Resettlement
-country_edict = {
-	# Name of edict
-	name = "resettlement"
-
-	# Edict effects
-	modifier = {}
-
-	# The cost of influence for this edict.
-	influence_cost = 0
+	# Length edict time
+	length = 0
 
 	# The conditions to activate it.
 	allow = {}
 
-   # The conditions to visible it.
-   potential = {}
+	# The conditions to visible it.
+	potential = {}
 
 	# How likely(probable) the AI is to take this edict.
 	ai_weight = {
@@ -60,35 +40,77 @@ country_edict = {
 	}
 
 	# Scripted effect
-   effect = {
-      country_event = { id = 995cores.2 }
-   } 
+	effect = {
+		country_event = { id = 995cores.1 }
+	}
 }
 
-# Edict Starbase Cap
-country_edict = {
-	# Name of edict
-	name = "basecap"
+# Edict Resettlement
+resettlement = {
 
 	# Edict effects
 	modifier = {}
 
 	# The cost of influence for this edict.
-	influence_cost = 0
+	resources = {
+		category = edicts
+		cost = {
+			# influence_cost = 0
+			influence = 0
+		}
+	}
+
+	# Length edict time
+	length = 0
 
 	# The conditions to activate it.
 	allow = {}
 
-   # The conditions to visible it.
-   potential = {}
+	# The conditions to visible it.
+	potential = {}
 
-   # How likely(probable) the AI is to take this edict.
+	# How likely(probable) the AI is to take this edict.
 	ai_weight = {
 		weight = 0
 	}
 
-   # Scripted effect
-   effect = {
-      country_event = { id = 995cores.3 }
-   } 
+	# Scripted effect
+	effect = {
+		country_event = { id = 995cores.2 }
+	}
+}
+
+# Edict Starbase Cap
+basecap = {
+
+	# Edict effects
+	modifier = {}
+
+	# The cost of influence for this edict.
+	resources = {
+		category = edicts
+		cost = {
+			# influence_cost = 0
+			influence = 0
+		}
+	}
+
+	# Length edict time
+	length = 0
+
+	# The conditions to activate it.
+	allow = {}
+
+	# The conditions to visible it.
+	potential = {}
+
+	# How likely(probable) the AI is to take this edict.
+	ai_weight = {
+		weight = 0
+	}
+
+	# Scripted effect
+	effect = {
+		country_event = { id = 995cores.3 }
+	}
 }

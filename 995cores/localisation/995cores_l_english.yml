@@ -2,8 +2,8 @@
  ####################################
  # Edicts
  ####################################
- edict_planetcap:0 "Planet Cap"
- edict_planetcap_desc:0 "Raises Core Planet Cap"
+ edict_shipcap:0 "Ship Cap"
+ edict_shipcap_desc:0 "Raises Ship Cap"
  
  edict_resettlement:0 "Resettlement Cost"
  edict_resettlement_desc:0 "Change Resettlement Cost"
@@ -14,9 +14,9 @@
  ####################################
  # Events
  ####################################
- # Menu Core Planet Cap
- 995cores.1.name:0 "Menu Planet Cap"
- 995cores.1.desc:0 "Select the amount you want to raise your Core Planet Cap. The Change can be reverted by disabling the edict."
+ # Menu Ship Cap
+ 995cores.1.name:0 "Menu Ship Cap"
+ 995cores.1.desc:0 "Select the amount you want to raise your Ship Cap. The Change can be reverted by disabling the edict."
  995cores.1.a:0 "+5"
  995cores.1.b:0 "+10"
  995cores.1.c:0 "+50"
@@ -48,12 +48,12 @@
  ####################################
  # Static Modifiers
  ####################################
- 5planetcap:0 "+5 Planet Cap"
- 10planetcap:0 "+10 Planet Cap"
- 50planetcap:0 "+50 Planet Cap"
- 100planetcap:0 "+100 Planet Cap"
- 990planetcap:0 "+990 Planet Cap"
- 9990planetcap:0 "+9990 Planet Cap"
+ 5shipcap:0 "+5 Ship Cap"
+ 10shipcap:0 "+10 Ship Cap"
+ 50shipcap:0 "+50 Ship Cap"
+ 100shipcap:0 "+100 Ship Cap"
+ 990shipcap:0 "+990 Ship Cap"
+ 9990shipcap:0 "+9990 Ship Cap"
  res15:0 "-15% Resettlement Cost"
  res25:0 "-25% Resettlement Cost"
  res40:0 "-40% Resettlement Cost"
