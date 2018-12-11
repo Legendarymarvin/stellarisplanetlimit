@@ -2,8 +2,8 @@
  ####################################
  # Edicts
  ####################################
- edict_planetcap:0 "Planetenlimit"
- edict_planetcap_desc:0 "Planetenlimit verändern"
+ edict_shipcap:0 "Schiffslimit"
+ edict_shipcap_desc:0 "Schiffslimit verändern"
  
  edict_resettlement:0 "Umsiedlungskosten"
  edict_resettlement_desc:0 "Umsiedlungskosten ändern"
@@ -14,9 +14,9 @@
  ####################################
  # Events
  ####################################
- # Menu Core Planet Cap
- 995cores.1.name:0 "Änderung Planetenlimit"
- 995cores.1.desc:0 "Um wie viel willst Du Dein Planetenlimit erhöhen? Zum Entfernen der Erhöhung das Edikt nochmal wählen."
+ # Menu Ship Cap
+ 995cores.1.name:0 "Änderung Schiffslimit"
+ 995cores.1.desc:0 "Um wie viel willst Du Dein Schiffslimit erhöhen? Zum Entfernen der Erhöhung das Edikt nochmal wählen."
  995cores.1.a:0 "+5"
  995cores.1.b:0 "+10"
  995cores.1.c:0 "+50"
@@ -48,12 +48,12 @@
  ####################################
  # Static Modifiers
  ####################################
- 5planetcap:0 "+5 Planetenlimit"
- 10planetcap:0 "+10 Planetenlimit"
- 50planetcap:0 "+50 Planetenlimit"
- 100planetcap:0 "+100 Planetenlimit"
- 990planetcap:0 "+990 Planetenlimit"
- 9990planetcap:0 "+9990 Planetenlimit"
+ 5shipcap:0 "+5 Schiffslimit"
+ 10shipcap:0 "+10 Schiffslimit"
+ 50shipcap:0 "+50 Schiffslimit"
+ 100shipcap:0 "+100 Schiffslimit"
+ 990shipcap:0 "+990 Schiffslimit"
+ 9990shipcap:0 "+9990 Schiffslimit"
  res15:0 "-15% Umsiedlungskosten"
  res25:0 "-25% Umsiedlungskosten"
  res40:0 "-40% Umsiedlungskosten"

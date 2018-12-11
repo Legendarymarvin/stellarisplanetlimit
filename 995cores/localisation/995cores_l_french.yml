@@ -2,21 +2,21 @@
  ####################################
  # Edicts
  ####################################
- edict_planetcap:0 "Planète dans la capacité limite"
- edict_planetcap_desc:0 "Augmente la capacité limite de planète"
+ edict_shipcap:0 "Vaisseau capacité"
+ edict_shipcap_desc:0 "Augmente la capacité limite de vaisseau"
  
  edict_resettlement:0 "En coût de réinstallation"
  edict_resettlement_desc:0 "Le coût de réinstallation est diminué"
   
- edict_basecap:0 "Starbase Cap"
- edict_basecap_desc:0 "Change Starbase Cap"
+ edict_basecap:0 "Base spatiale capacité"
+ edict_basecap_desc:0 "Change la capacité limite de base spatiale Cap"
  
  ####################################
  # Events
  ####################################
- # Menu Core Planet Cap
- 995cores.1.name:0 "Menu capacité planète"
- 995cores.1.desc:0 "Sélèctionnez la valeur de la capacité de planète !\nVous désirez ?"
+ # Menu Ship Cap
+ 995cores.1.name:0 "Menu vaisseau capacité"
+ 995cores.1.desc:0 "Sélèctionnez la valeur de la capacité de vaisseau !\nVous désirez ?"
  995cores.1.a:0 "+5"
  995cores.1.b:0 "+10"
  995cores.1.c:0 "+50"
@@ -34,7 +34,7 @@
  995cores.2.e:0 "-75%"
  995cores.2.f:0 "-100%"
  995cores.2.g:0 "Réinitialiser la valeur par defaut"
-  # Menu Starbase Cap 
+ # Menu Starbase Cap 
  995cores.3.name:0 "Menu capacité base spatiale"
  995cores.3.desc:0 "Sélectionnez le montant à utiliser pour augmenter votre plafond de base spatiale. Le changement peut être annulé en réutilisant le décret."
  995cores.3.a:0 "+5"
@@ -48,12 +48,12 @@
  ####################################
  # Static Modifiers
  ####################################
- 5planetcap:0 "+5 Planète capacité"
- 10planetcap:0 "+10 Planète capacité"
- 50planetcap:0 "+50 Planète capacité"
- 100planetcap:0 "+100 Planète capacité"
- 990planetcap:0 "+990 Planète capacité"
- 9990planetcap:0 "+9990 Planète capacité"
+ 5shipcap:0 "+5 Vaisseau capacité"
+ 10shipcap:0 "+10 Vaisseau capacité"
+ 50shipcap:0 "+50 Vaisseau capacité"
+ 100shipcap:0 "+100 Vaisseau capacité"
+ 990shipcap:0 "+990 Vaisseau capacité"
+ 9990shipcap:0 "+9990 Vaisseau capacité"
  res15:0 "-15% Coût de réinstallation"
  res25:0 "-25% Coût de réinstallation"
  res40:0 "-40% Coût de réinstallation"
@@ -61,9 +61,9 @@
  res60:0 "-60% Coût de réinstallation"
  res75:0 "-75% Coût de réinstallation"
  res100:0 "-100% Coût de réinstallation"
- 5basecap:0 "+5 Starbase Cap"
- 10basecap:0 "+10 Starbase Cap"
- 50basecap:0 "+50 Starbase Cap"
- 100basecap:0 "+100 Starbase Cap"
- 990basecap:0 "+990 Starbase Cap"
- 9990basecap:0 "+9990 Starbase Cap"
+ 5basecap:0 "+5 Base spatiale capacité"
+ 10basecap:0 "+10 Base spatiale capacité"
+ 50basecap:0 "+50 Base spatiale capacité"
+ 100basecap:0 "+100 Base spatiale capacité"
+ 990basecap:0 "+990 Base spatiale capacité"
+ 9990basecap:0 "+9990 Base spatiale capacité"

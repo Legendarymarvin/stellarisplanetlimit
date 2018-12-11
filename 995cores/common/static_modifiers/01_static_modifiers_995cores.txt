@@ -1,25 +1,25 @@
-5planetcap = {
-   country_core_sector_system_cap = 5
+5shipcap = {
+   country_naval_cap_add = 5
 }
 
-10planetcap = {
-   country_core_sector_system_cap = 10
+10shipcap = {
+   country_naval_cap_add = 10
 }
 
-50planetcap = {
-   country_core_sector_system_cap = 50
+50shipcap = {
+   country_naval_cap_add = 50
 }
 
-100planetcap = {
-   country_core_sector_system_cap = 100
+100shipcap = {
+   country_naval_cap_add = 100
 }
 
-990planetcap = {
-   country_core_sector_system_cap = 990
+990shipcap = {
+   country_naval_cap_add = 990
 }
 
-9990planetcap = {
-   country_core_sector_system_cap = 9990
+9990shipcap = {
+   country_naval_cap_add = 9990
 }
 
 res15 = {
