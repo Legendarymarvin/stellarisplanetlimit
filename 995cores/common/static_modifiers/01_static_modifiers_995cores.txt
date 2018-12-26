@@ -73,3 +73,27 @@ res100 = {
 9990basecap = {
    country_starbase_capacity_add = 9990
 }
+
+5admincap = {
+   country_admin_cap_add = 5
+}
+
+10admincap = {
+   country_admin_cap_add = 10
+}
+
+50admincap = {
+   country_admin_cap_add = 50
+}
+
+100admincap = {
+   country_admin_cap_add = 100
+}
+
+990admincap = {
+   country_admin_cap_add = 990
+}
+
+9990admincap = {
+   country_admin_cap_add = 9990
+}

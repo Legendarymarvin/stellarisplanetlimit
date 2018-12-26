@@ -7,10 +7,13 @@
  
  edict_resettlement:0 "Umsiedlungskosten"
  edict_resettlement_desc:0 "Umsiedlungskosten ändern"
-  
+ 
  edict_basecap:0 "Sternenbasenkapazität"
  edict_basecap_desc:0 "Sternenbasenkapazität ändern"
  
+ edict_admincap:0 "Verwaltungskapazität"
+ edict_admincap_desc:0 "Verwaltungskapazität ändern"
+
  ####################################
  # Events
  ####################################
@@ -44,6 +47,16 @@
  995cores.3.e:0 "+990"
  995cores.3.f:0 "+9990"
  995cores.3.g:0 "Wert auf Standard setzen"
+ # Menu Admin Cap 
+ 995cores.4.name:0 "Änderung Verwaltungskapazität"
+ 995cores.4.desc:0 "Um wie viel willst Du Deine Verwaltungskapazität erhöhen? Zum Entfernen der Erhöhung das Edikt nochmal wählen."
+ 995cores.4.a:0 "+5"
+ 995cores.4.b:0 "+10"
+ 995cores.4.c:0 "+50"
+ 995cores.4.d:0 "+100"
+ 995cores.4.e:0 "+990"
+ 995cores.4.f:0 "+9990"
+ 995cores.4.g:0 "Wert auf Standard setzen"
  
  ####################################
  # Static Modifiers
@@ -67,3 +80,9 @@
  100basecap:0 "+100 Sternenbasenkapazität"
  990basecap:0 "+990 Sternenbasenkapazität"
  9990basecap:0 "+9990 Sternenbasenkapazität"
+ 5admincap:0 "+5 Verwaltungskapazität"
+ 10admincap:0 "+10 Verwaltungskapazität"
+ 50admincap:0 "+50 Verwaltungskapazität"
+ 100admincap:0 "+100 Verwaltungskapazität"
+ 990admincap:0 "+990 Verwaltungskapazität"
+ 9990admincap:0 "+9990 Verwaltungskapazität"

@@ -195,6 +195,67 @@ country_event = {
    }
 }
 
+
+# Menu Core Admin Cap
+country_event = {
+   id = 995cores.4
+   title = "995cores.4.name"
+   desc = "995cores.4.desc"
+   picture = GFX_evt_metropolis
+   show_sound = event_scanner
+
+   is_triggered_only = yes
+
+   trigger = {
+      is_ai = no
+   }
+
+  # +5 admin cap
+   option = {
+      name = 995cores.4.a
+      country_event = { id = 995cores.41 }
+   }
+
+   # +10 admin cap
+   option = {
+      name = 995cores.4.b
+      country_event = { id = 995cores.42 }
+   }
+
+   # +50 admin cap
+   option = {
+      name = 995cores.4.c
+      country_event = { id = 995cores.43 }
+   }
+
+   # +100 admin cap
+   option = {
+      name = 995cores.4.d
+      country_event = { id = 995cores.44 }
+   }
+
+   # +990 admin cap
+   option = {
+      name = 995cores.4.e
+      country_event = { id = 995cores.45 }
+   }
+
+   # +9990 admin cap
+   option = {
+      name = 995cores.4.f
+      country_event = { id = 995cores.46 }
+   }
+
+   # Resetadmin cap
+   option = {
+      name = 995cores.4.g
+      trigger = {
+         has_country_flag = 995_admincap
+      }
+      country_event = { id = 995cores.47 }
+   }
+}
+
 #######################
 # Set
 #######################
@@ -597,5 +658,142 @@ country_event = {
       remove_modifier = "100basecap"
       remove_modifier = "990basecap"
       remove_modifier = "9990basecap"
+   }
+}
+
+
+###
+# AdminCap
+###
+
+# Set +5 Admin cap (HIDDEN)
+country_event = {
+   id = 995cores.41   
+   hide_window = yes
+
+   is_triggered_only = yes
+
+   immediate = {
+      # The country_flag admin cap mod
+      set_country_flag = 995_admincap
+      # Set the static modifiers
+      add_modifier = {
+         modifier = "5admincap"
+         days = -1
+      }
+   }
+}
+
+# Set +10 Admin cap (HIDDEN)
+country_event = {
+   id = 995cores.42   
+   hide_window = yes
+
+   is_triggered_only = yes
+
+   immediate = {
+      # The country_flag admin cap mod
+      set_country_flag = 995_admincap
+      # Set the static modifiers
+      add_modifier = {
+         modifier = "10admincap"
+         days = -1
+      }
+   }
+}
+
+# Set +50 Admin cap (HIDDEN)
+country_event = {
+   id = 995cores.43   
+   hide_window = yes
+
+   is_triggered_only = yes
+
+   immediate = {
+      # The country_flag admin cap mod
+      set_country_flag = 995_admincap
+      # Set the static modifiers
+      add_modifier = {
+         modifier = "50admincap"
+         days = -1
+      }
+   }
+}
+
+# Set +100 Admin cap (HIDDEN)
+country_event = {
+   id = 995cores.44   
+   hide_window = yes
+
+   is_triggered_only = yes
+
+   immediate = {
+      # The country_flag admin cap mod
+      set_country_flag = 995_admincap
+      # Set the static modifiers
+      add_modifier = {
+         modifier = "100admincap"
+         days = -1
+      }
+   }
+}
+
+# Set +990 Admin cap (HIDDEN)
+country_event = {
+   id = 995cores.45   
+   hide_window = yes
+
+   is_triggered_only = yes
+
+   immediate = {
+      # The country_flag admin cap mod
+      set_country_flag = 995_admincap
+      # Set the static modifiers
+      add_modifier = {
+         modifier = "990admincap"
+         days = -1
+      }
+   }
+}
+
+# Set +9990 Admin cap (HIDDEN)
+country_event = {
+   id = 995cores.46   
+   hide_window = yes
+
+   is_triggered_only = yes
+
+   immediate = {
+      # The country_flag admin cap mod
+      set_country_flag = 995_admincap
+      # Set the static modifiers
+      add_modifier = {
+         modifier = "9990admincap"
+         days = -1
+      }
+   }
+}
+
+# Reset admin cap (HIDDEN)
+country_event = {
+   id = 995cores.47
+   hide_window = yes
+
+   is_triggered_only = yes
+
+   trigger = {
+      has_country_flag = 995_admincap
+   }
+
+   immediate = {
+      # The country_flag admin cap mod
+      remove_country_flag = 995_admincap
+      # Remove all static modifiers for admin cap
+      remove_modifier = "5admincap"
+      remove_modifier = "10admincap"
+      remove_modifier = "50admincap"
+      remove_modifier = "100admincap"
+      remove_modifier = "990admincap"
+      remove_modifier = "9990admincap"
    }
 }

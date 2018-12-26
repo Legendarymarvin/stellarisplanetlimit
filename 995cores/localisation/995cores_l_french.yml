@@ -7,10 +7,13 @@
  
  edict_resettlement:0 "En coût de réinstallation"
  edict_resettlement_desc:0 "Le coût de réinstallation est diminué"
-  
+ 
  edict_basecap:0 "Base spatiale capacité"
  edict_basecap_desc:0 "Change la capacité limite de base spatiale Cap"
  
+ edict_admincap:0 "Administration capacité"
+ edict_admincap_desc:0 "Change la capacité d'Administration"
+
  ####################################
  # Events
  ####################################
@@ -44,6 +47,16 @@
  995cores.3.e:0 "+990"
  995cores.3.f:0 "+9990"
  995cores.3.g:0 "Réinitialiser la valeur par defaut"
+ # Menu Admin Cap 
+ 995cores.4.name:0 "Menu administration capacité"
+ 995cores.4.desc:0 "Sélectionnez le montant à utiliser pour augmenter votre plafond de la capacité d'administration. Le changement peut être annulé en réutilisant le décret."
+ 995cores.4.a:0 "+5"
+ 995cores.4.b:0 "+10"
+ 995cores.4.c:0 "+50"
+ 995cores.4.d:0 "+100"
+ 995cores.4.e:0 "+990"
+ 995cores.4.f:0 "+9990"
+ 995cores.4.g:0 "Réinitialiser la valeur par defaut"
  
  ####################################
  # Static Modifiers
@@ -67,3 +80,9 @@
  100basecap:0 "+100 Base spatiale capacité"
  990basecap:0 "+990 Base spatiale capacité"
  9990basecap:0 "+9990 Base spatiale capacité"
+ 5admincap:0 "+5 Administration capacité"
+ 10admincap:0 "+10 Administration capacité"
+ 50admincap:0 "+50 Administration capacité"
+ 100admincap:0 "+100 Administration capacité"
+ 990admincap:0 "+990 Administration capacité"
+ 9990admincap:0 "+9990 Administration capacité"

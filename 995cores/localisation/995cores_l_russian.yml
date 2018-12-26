@@ -11,6 +11,9 @@
  edict_basecap:0 "Starbase Cap"
  edict_basecap_desc:0 "Change Starbase Cap"
  
+ edict_admincap:0 "Administrative Cap"
+ edict_admincap_desc:0 "Change Administrative Cap"
+
  ####################################
  # Events
  ####################################
@@ -44,6 +47,16 @@
  995cores.3.e:0 "+990"
  995cores.3.f:0 "+9990"
  995cores.3.g:0 "Set the value to default."
+ # Menu Admin Cap 
+ 995cores.4.name:0 "Menu Administrative Cap"
+ 995cores.4.desc:0 "Select the amount by which to raise your Admin Cap. The Change can be reverted by reusing the edict."
+ 995cores.4.a:0 "+5"
+ 995cores.4.b:0 "+10"
+ 995cores.4.c:0 "+50"
+ 995cores.4.d:0 "+100"
+ 995cores.4.e:0 "+990"
+ 995cores.4.f:0 "+9990"
+ 995cores.4.g:0 "Set the value to default."
  
  ####################################
  # Static Modifiers
@@ -67,3 +80,9 @@
  100basecap:0 "+100 Starbase Cap"
  990basecap:0 "+990 Starbase Cap"
  9990basecap:0 "+9990 Starbase Cap"
+ 5admincap:0 "+5 Admin Cap"
+ 10admincap:0 "+10 Admin Cap"
+ 50admincap:0 "+50 Admin Cap"
+ 100admincap:0 "+100 Admin Cap"
+ 990admincap:0 "+990 Admin Cap"
+ 9990admincap:0 "+9990 Admin Cap"
