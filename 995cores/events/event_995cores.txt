@@ -842,19 +842,13 @@ country_event = {
       country_event = { id = 995cores.55 }
    }
 
-   # 50envoys
-   option = {
-      name = 995cores.5.f
-      country_event = { id = 995cores.56 }
-   }
-
-   # Resetadmin cap
+   # Reset envoys
    option = {
       name = 995cores.5.g
       trigger = {
-         has_country_flag = 995_admincap
+         has_country_flag = envoy_flag
       }
-      country_event = { id = 995cores.57 }
+      country_event = { id = 995cores.17 }
    }
 }
 
@@ -947,23 +941,6 @@ country_event = {
    }
 }
 
-# 50envoys (HIDDEN)
-country_event = {
-   id = 995cores.56   
-   hide_window = yes
-
-   is_triggered_only = yes
-
-   immediate = {
-      set_country_flag = envoy_flag
-      # Set the static modifiers
-      add_modifier = {
-         modifier = "50envoys"
-         days = -1
-      }
-   }
-}
-
 # Reset envoys (HIDDEN)
 country_event = {
    id = 995cores.17
@@ -983,7 +960,6 @@ country_event = {
       remove_modifier = "5envoys"
       remove_modifier = "10envoys"
       remove_modifier = "20envoys"
-      remove_modifier = "50envoys"
    }
 }
 
