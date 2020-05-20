@@ -1,28 +1,24 @@
 # Flexible Core Planet Cap & Resettlement Cost
 
-Stellaris Modification for Flexible Core Planet Cap & Resettlement Cost
+Flexible Starbase Cap, Ship Cap, Admin Cap & Resettlement Cost
 
-**Modification for Paradox Grand Strategy Game Stellaris:**
-Stellaris on Steam: http://store.steampowered.com/app/281990/
+This mod started out as a simple increase of the core planet cap, because even before the game released I thought players should have the option to play without sectors. Over the time it got some extra features like a resizing of the resettlement window because the default one couldn't handle having a lot of non-sectors planets.
 
-Can be subbed via the Workshop http://steamcommunity.com/sharedfiles/filedetails/?id=682336292 or you clone the **Git Repository** (https://github.com/metzbernhard/stellarisplanetlimit) and copy it to the Stellaris Mod-Folder. The Git Repository can also be used to get the Mod for older game versions starting with Patch 1.3.
+But as the game evolved, so did the mod. It got an option to set a flexible limit on planets, other caps one might want higher got added and with 2.2 the initial reason for this mod got removed from the base game: Planet Cap & Sectors are no longer a thing in Stellaris.
 
-If you love micro-management and want to control all yourself without giving control to greedy governors, this mod is for you. It raises the limit for planets flexible using cost-free edicts to up to ~10k. You can still create sectors if you want to. This will not affect AI. 
+These days the mod provides five edicts that fire events which the player can use to modify core aspects of the game:
 
-Mod also enables to change resettlement cost, but sadly this is only possible on a percentage basis and thus a little messy, especially since the value can become negative and grand resettlement.
-Alternatively you can use this Addon to reduce the cost to zero flat: http://steamcommunity.com/sharedfiles/filedetails/?id=818030731
+\* Increase the Starbase Cap
+\* Increase the Ship Cap
+\* Increase the Admin Cap
+\* Change Resettlement Cost
+\* Get More Envoys (not resetable!)
 
-Compatible with 1.8
+The changes can be reset to default as well. Resettlement Cost has the problem of being weirdly implemented. So if you for example take the -100% option and have other modifiers for reducing Resettlement Cost, you will have a negative Cost. Can't be helped with the current implementation.
+
+NOT ACHIEVEMENT COMPATIBLE! Obviously.
+The AI will not use this.
+
+Compatible with 2.7
 Available in English & German!
 Also available in French thanks to https://github.com/lquattro
-
-########################
-### CHANGENOTE 21.12 ###
-########################
-
-New Mod Version thanks to lquattro, you will now have only two edicts, one for core planet cap, one for resettlement costs. THese edicts will trigger an event, that will let you decide which change you want to planet cap/resettlement cost. Disabling the edict will disable the changes. This makes the edict interface a little more tidy. 
-
-![](https://github.com/metzbernhard/stellarisplanetlimit/blob/master/screen1.png)
-![](https://github.com/metzbernhard/stellarisplanetlimit/blob/master/screen2.png)
-![](https://github.com/metzbernhard/stellarisplanetlimit/blob/master/screen3.png)
-![](https://github.com/metzbernhard/stellarisplanetlimit/blob/master/screen4.png)
