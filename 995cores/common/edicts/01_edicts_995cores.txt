@@ -150,3 +150,39 @@ admincap = {
 		country_event = { id = 995cores.4 }
 	}
 }
+
+
+# Envoys
+envoycap = {
+
+	# Edict effects
+	modifier = {}
+
+	# The cost of influence for this edict.
+	resources = {
+		category = edicts
+		cost = {
+			# influence_cost = 0
+			influence = 0
+		}
+	}
+
+	# Length edict time
+	length = 0
+
+	# The conditions to activate it.
+	allow = {}
+
+	# The conditions to visible it.
+	potential = {}
+
+	# How likely(probable) the AI is to take this edict.
+	ai_weight = {
+		weight = 0
+	}
+
+	# Scripted effect
+	effect = {
+		country_event = { id = 995cores.5 }
+	}
+}

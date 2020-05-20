@@ -14,6 +14,9 @@
  edict_admincap:0 "Administrative Cap"
  edict_admincap_desc:0 "Change Administrative Cap"
  
+ edict_envoycap:0 "More envoys"
+ edict_envoycap_desc:0 "Increase your envoys"
+ 
  ####################################
  # Events
  ####################################
@@ -57,6 +60,16 @@
  995cores.4.e:0 "+990"
  995cores.4.f:0 "+9990"
  995cores.4.g:0 "Set the value to default."
+ # Envoys 
+ 995cores.5.name:0 "Envoys"
+ 995cores.5.desc:0 "Select the number of additional envoys you would like to have. You can revert the change by reusing the edict."
+ 995cores.5.a:0 "+1"
+ 995cores.5.b:0 "+2"
+ 995cores.5.c:0 "+5"
+ 995cores.5.d:0 "+10"
+ 995cores.5.e:0 "+20"
+ 995cores.5.f:0 "+50"
+ 995cores.5.g:0 "Set the value to default."
 
  ####################################
  # Static Modifiers
@@ -86,3 +99,9 @@
  100admincap:0 "+100 Admin Cap"
  990admincap:0 "+990 Admin Cap"
  9990admincap:0 "+9990 Admin Cap"
+ 1envoys:0 "+1 Envoy"
+ 2envoys:0 "+2 Envoys"
+ 5envoys:0 "+5 Envoys"
+ 10envoys:0 "+10 Envoys"
+ 20envoys:0 "+20 Envoys"
+ 50envoys:0 "+50 Envoys"

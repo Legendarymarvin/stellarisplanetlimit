@@ -1,10 +1,9 @@
-name="Flexible Core Planet Cap & Resettlement Cost"
-archive="995cores.zip"
+version="2.6.*"
 tags={
 	"Balance"
 	"Gameplay"
 	"Utilities"
 }
-picture="base.jpg"
+name="Flexible Core Planet Cap & Resettlement Cost (2.6)"
+supported_version="2.6.2"
 remote_file_id="682336292"
-supported_version="1.2.*"

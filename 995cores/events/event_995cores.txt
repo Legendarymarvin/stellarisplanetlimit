@@ -797,3 +797,598 @@ country_event = {
       remove_modifier = "9990admincap"
    }
 }
+
+# Menu Core Envoys Cap
+country_event = {
+   id = 995cores.5
+   title = "995cores.5.name"
+   desc = "995cores.5.desc"
+   picture = GFX_evt_metropolis
+   show_sound = event_scanner
+
+   is_triggered_only = yes
+
+   trigger = {
+      is_ai = no
+   }
+
+  # + 1 envoy
+   option = {
+      name = 995cores.5.a
+      country_event = { id = 995cores.51 }
+   }
+
+   # + 2 envoys
+   option = {
+      name = 995cores.5.b
+      country_event = { id = 995cores.52 }
+   }
+
+   # + 5 envoys
+   option = {
+      name = 995cores.5.c
+      country_event = { id = 995cores.53 }
+   }
+
+   # 10envoys
+   option = {
+      name = 995cores.5.d
+      country_event = { id = 995cores.54 }
+   }
+
+   # 20envoys
+   option = {
+      name = 995cores.5.e
+      country_event = { id = 995cores.55 }
+   }
+
+   # 50envoys
+   option = {
+      name = 995cores.5.f
+      country_event = { id = 995cores.56 }
+   }
+
+   # Resetadmin cap
+   option = {
+      name = 995cores.5.g
+      trigger = {
+         has_country_flag = 995_admincap
+      }
+      country_event = { id = 995cores.57 }
+   }
+}
+
+#######################
+# Set
+#######################
+
+# 1envoys (HIDDEN)
+country_event = {
+   id = 995cores.51   
+   hide_window = yes
+
+   is_triggered_only = yes
+
+   immediate = {
+      set_country_flag = envoy_flag
+      # Set the static modifiers
+      add_modifier = {
+         modifier = "1envoys"
+         days = -1
+      }
+   }
+}
+
+# 2envoys (HIDDEN)
+country_event = {
+   id = 995cores.52   
+   hide_window = yes
+
+   is_triggered_only = yes
+
+   immediate = {
+      set_country_flag = envoy_flag
+      # Set the static modifiers
+      add_modifier = {
+         modifier = "2envoys"
+         days = -1
+      }
+   }
+}
+
+# 5envoys (HIDDEN)
+country_event = {
+   id = 995cores.53   
+   hide_window = yes
+
+   is_triggered_only = yes
+
+   immediate = {
+      set_country_flag = envoy_flag
+      # Set the static modifiers
+      add_modifier = {
+         modifier = "5envoys"
+         days = -1
+      }
+   }
+}
+
+# 10envoys (HIDDEN)
+country_event = {
+   id = 995cores.54   
+   hide_window = yes
+
+   is_triggered_only = yes
+
+   immediate = {
+      set_country_flag = envoy_flag
+      # Set the static modifiers
+      add_modifier = {
+         modifier = "10envoys"
+         days = -1
+      }
+   }
+}
+
+# 20envoys (HIDDEN)
+country_event = {
+   id = 995cores.55   
+   hide_window = yes
+
+   is_triggered_only = yes
+
+   immediate = {
+      set_country_flag = envoy_flag
+      # Set the static modifiers
+      add_modifier = {
+         modifier = "20envoys"
+         days = -1
+      }
+   }
+}
+
+# 50envoys (HIDDEN)
+country_event = {
+   id = 995cores.56   
+   hide_window = yes
+
+   is_triggered_only = yes
+
+   immediate = {
+      set_country_flag = envoy_flag
+      # Set the static modifiers
+      add_modifier = {
+         modifier = "50envoys"
+         days = -1
+      }
+   }
+}
+
+# Reset envoys (HIDDEN)
+country_event = {
+   id = 995cores.17
+   hide_window = yes
+
+   is_triggered_only = yes
+
+   trigger = {
+      has_country_flag = envoy_flag
+   }
+
+   immediate = {
+      remove_country_flag = envoy_flag
+      # Remove all static modifiers for envoys
+      remove_modifier = "1envoys"
+      remove_modifier = "2envoys"
+      remove_modifier = "5envoys"
+      remove_modifier = "10envoys"
+      remove_modifier = "20envoys"
+      remove_modifier = "50envoys"
+   }
+}
+
+
+# Set -15 % Resettlement Cost Multi (HIDDEN)
+country_event = {
+   id = 995cores.21   
+   hide_window = yes
+
+   is_triggered_only = yes
+
+   immediate = {
+      # The country_flag ship cap mod
+      set_country_flag = 995_resettlement
+      # Set the static modifiers
+      add_modifier = {
+         modifier = "res15"
+         days = -1
+      }
+   }
+}
+
+# Set -25 % Resettlement Cost Multi (HIDDEN)
+country_event = {
+   id = 995cores.22   
+   hide_window = yes
+
+   is_triggered_only = yes
+
+   immediate = {
+      # The country_flag ship cap mod
+      set_country_flag = 995_resettlement
+      # Set the static modifiers
+      add_modifier = {
+         modifier = "res25"
+         days = -1
+      }
+   }
+}
+
+# Set -40 % Resettlement Cost Multi (HIDDEN)
+country_event = {
+   id = 995cores.23   
+   hide_window = yes
+
+   is_triggered_only = yes
+
+   immediate = {
+      # The country_flag ship cap mod
+      set_country_flag = 995_resettlement
+      # Set the static modifiers
+      add_modifier = {
+         modifier = "res40"
+         days = -1
+      }
+   }
+}
+
+# Set -50 % Resettlement Cost Multi (HIDDEN)
+country_event = {
+   id = 995cores.24   
+   hide_window = yes
+
+   is_triggered_only = yes
+
+   immediate = {
+      # The country_flag ship cap mod
+      set_country_flag = 995_resettlement
+      # Set the static modifiers
+      add_modifier = {
+         modifier = "res50"
+         days = -1
+      }
+   }
+}
+
+# Set -75 % Resettlement Cost Multi (HIDDEN)
+country_event = {
+   id = 995cores.25   
+   hide_window = yes
+
+   is_triggered_only = yes
+
+   immediate = {
+      # The country_flag ship cap mod
+      set_country_flag = 995_resettlement
+      # Set the static modifiers
+      add_modifier = {
+         modifier = "res75"
+         days = -1
+      }
+   }
+}
+
+# Set -100 % Resettlement Cost Multi (HIDDEN)
+country_event = {
+   id = 995cores.26   
+   hide_window = yes
+
+   is_triggered_only = yes
+
+   immediate = {
+      # The country_flag ship cap mod
+      set_country_flag = 995_resettlement
+      # Set the static modifiers
+      add_modifier = {
+         modifier = "res100"
+         days = -1
+      }
+   }
+}
+
+# Reset Resettlement Cost Multi (HIDDEN)
+country_event = {
+   id = 995cores.27 
+   hide_window = yes
+
+   is_triggered_only = yes
+
+   trigger = {
+         has_country_flag = 995_resettlement
+   }
+
+   immediate = {
+      # The country_flag resettlement mod
+      remove_country_flag = 995_resettlement
+      # Remove all static modifiers for resettlement
+      remove_modifier = "res15"
+      remove_modifier = "res25"
+      remove_modifier = "res40"
+      remove_modifier = "res50"
+      remove_modifier = "res75"
+      remove_modifier = "res100"
+   }
+}
+
+###
+# Starbases
+###
+
+# Set +5 Base cap (HIDDEN)
+country_event = {
+   id = 995cores.31   
+   hide_window = yes
+
+   is_triggered_only = yes
+
+   immediate = {
+      # The country_flag base cap mod
+      set_country_flag = 995_basecap
+      # Set the static modifiers
+      add_modifier = {
+         modifier = "5basecap"
+         days = -1
+      }
+   }
+}
+
+# Set +10 Base cap (HIDDEN)
+country_event = {
+   id = 995cores.32   
+   hide_window = yes
+
+   is_triggered_only = yes
+
+   immediate = {
+      # The country_flag base cap mod
+      set_country_flag = 995_basecap
+      # Set the static modifiers
+      add_modifier = {
+         modifier = "10basecap"
+         days = -1
+      }
+   }
+}
+
+# Set +50 Base cap (HIDDEN)
+country_event = {
+   id = 995cores.33   
+   hide_window = yes
+
+   is_triggered_only = yes
+
+   immediate = {
+      # The country_flag base cap mod
+      set_country_flag = 995_basecap
+      # Set the static modifiers
+      add_modifier = {
+         modifier = "50basecap"
+         days = -1
+      }
+   }
+}
+
+# Set +100 Base cap (HIDDEN)
+country_event = {
+   id = 995cores.34   
+   hide_window = yes
+
+   is_triggered_only = yes
+
+   immediate = {
+      # The country_flag base cap mod
+      set_country_flag = 995_basecap
+      # Set the static modifiers
+      add_modifier = {
+         modifier = "100basecap"
+         days = -1
+      }
+   }
+}
+
+# Set +990 Base cap (HIDDEN)
+country_event = {
+   id = 995cores.35   
+   hide_window = yes
+
+   is_triggered_only = yes
+
+   immediate = {
+      # The country_flag base cap mod
+      set_country_flag = 995_basecap
+      # Set the static modifiers
+      add_modifier = {
+         modifier = "990basecap"
+         days = -1
+      }
+   }
+}
+
+# Set +9990 Base cap (HIDDEN)
+country_event = {
+   id = 995cores.36   
+   hide_window = yes
+
+   is_triggered_only = yes
+
+   immediate = {
+      # The country_flag base cap mod
+      set_country_flag = 995_basecap
+      # Set the static modifiers
+      add_modifier = {
+         modifier = "9990basecap"
+         days = -1
+      }
+   }
+}
+
+# Reset base cap (HIDDEN)
+country_event = {
+   id = 995cores.37
+   hide_window = yes
+
+   is_triggered_only = yes
+
+   trigger = {
+      has_country_flag = 995_basecap
+   }
+
+   immediate = {
+      # The country_flag base cap mod
+      remove_country_flag = 995_basecap
+      # Remove all static modifiers for base cap
+      remove_modifier = "5basecap"
+      remove_modifier = "10basecap"
+      remove_modifier = "50basecap"
+      remove_modifier = "100basecap"
+      remove_modifier = "990basecap"
+      remove_modifier = "9990basecap"
+   }
+}
+
+
+###
+# AdminCap
+###
+
+# Set +5 Admin cap (HIDDEN)
+country_event = {
+   id = 995cores.41   
+   hide_window = yes
+
+   is_triggered_only = yes
+
+   immediate = {
+      # The country_flag admin cap mod
+      set_country_flag = 995_admincap
+      # Set the static modifiers
+      add_modifier = {
+         modifier = "5admincap"
+         days = -1
+      }
+   }
+}
+
+# Set +10 Admin cap (HIDDEN)
+country_event = {
+   id = 995cores.42   
+   hide_window = yes
+
+   is_triggered_only = yes
+
+   immediate = {
+      # The country_flag admin cap mod
+      set_country_flag = 995_admincap
+      # Set the static modifiers
+      add_modifier = {
+         modifier = "10admincap"
+         days = -1
+      }
+   }
+}
+
+# Set +50 Admin cap (HIDDEN)
+country_event = {
+   id = 995cores.43   
+   hide_window = yes
+
+   is_triggered_only = yes
+
+   immediate = {
+      # The country_flag admin cap mod
+      set_country_flag = 995_admincap
+      # Set the static modifiers
+      add_modifier = {
+         modifier = "50admincap"
+         days = -1
+      }
+   }
+}
+
+# Set +100 Admin cap (HIDDEN)
+country_event = {
+   id = 995cores.44   
+   hide_window = yes
+
+   is_triggered_only = yes
+
+   immediate = {
+      # The country_flag admin cap mod
+      set_country_flag = 995_admincap
+      # Set the static modifiers
+      add_modifier = {
+         modifier = "100admincap"
+         days = -1
+      }
+   }
+}
+
+# Set +990 Admin cap (HIDDEN)
+country_event = {
+   id = 995cores.45   
+   hide_window = yes
+
+   is_triggered_only = yes
+
+   immediate = {
+      # The country_flag admin cap mod
+      set_country_flag = 995_admincap
+      # Set the static modifiers
+      add_modifier = {
+         modifier = "990admincap"
+         days = -1
+      }
+   }
+}
+
+# Set +9990 Admin cap (HIDDEN)
+country_event = {
+   id = 995cores.46   
+   hide_window = yes
+
+   is_triggered_only = yes
+
+   immediate = {
+      # The country_flag admin cap mod
+      set_country_flag = 995_admincap
+      # Set the static modifiers
+      add_modifier = {
+         modifier = "9990admincap"
+         days = -1
+      }
+   }
+}
+
+# Reset admin cap (HIDDEN)
+country_event = {
+   id = 995cores.47
+   hide_window = yes
+
+   is_triggered_only = yes
+
+   trigger = {
+      has_country_flag = 995_admincap
+   }
+
+   immediate = {
+      # The country_flag admin cap mod
+      remove_country_flag = 995_admincap
+      # Remove all static modifiers for admin cap
+      remove_modifier = "5admincap"
+      remove_modifier = "10admincap"
+      remove_modifier = "50admincap"
+      remove_modifier = "100admincap"
+      remove_modifier = "990admincap"
+      remove_modifier = "9990admincap"
+   }
+}

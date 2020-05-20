@@ -97,3 +97,27 @@ res100 = {
 9990admincap = {
    country_admin_cap_add = 9990
 }
+
+1envoys = {
+   envoys_add = 1
+}
+
+2envoys = {
+   envoys_add = 2
+}
+
+5envoys = {
+   envoys_add = 5
+}
+
+10envoys = {
+   envoys_add = 10
+}
+
+20envoys = {
+   envoys_add = 20
+}
+
+50envoys = {
+   envoys_add = 50
+}
