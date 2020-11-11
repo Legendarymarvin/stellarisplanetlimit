@@ -117,3 +117,7 @@ res100 = {
 20envoys = {
    envoys_add = 20
 }
+
+50envoys = {
+   envoys_add = 50
+}

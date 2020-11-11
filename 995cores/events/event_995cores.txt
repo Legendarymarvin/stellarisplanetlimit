@@ -848,7 +848,7 @@ country_event = {
       trigger = {
          has_country_flag = envoy_flag
       }
-      country_event = { id = 995cores.17 }
+      country_event = { id = 995cores.56 }
    }
 }
 
@@ -943,7 +943,7 @@ country_event = {
 
 # Reset envoys (HIDDEN)
 country_event = {
-   id = 995cores.17
+   id = 995cores.56
    hide_window = yes
 
    is_triggered_only = yes
